@@ -213,6 +213,7 @@ namespace MyMotion.Animation.Editor
             };
             var playButton = new Button(() => {
                 ((MyMotionAnimation)target).Play();
+                MyMotionAnimationPreview.Begin();
                 if (PrefabStageUtility.GetCurrentPrefabStage() != null)
                 {
                     PrefabStage.prefabStageClosing -= OnPrefabStageClosing;
@@ -225,7 +226,11 @@ namespace MyMotion.Animation.Editor
                     flexGrow = 1f,
                 }
             };
-            var restartButton = new Button(() => ((MyMotionAnimation)target).Restart())
+            var restartButton = new Button(() =>
+            {
+                ((MyMotionAnimation)target).Restart();
+                MyMotionAnimationPreview.Begin();
+            })
             {
                 text = "Restart",
                 style = {

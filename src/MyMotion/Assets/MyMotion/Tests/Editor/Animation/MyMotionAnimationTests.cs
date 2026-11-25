@@ -85,6 +85,37 @@ namespace MyMotion.Tests
             Assert.That(animation.IsActive, Is.False);
         }
 
+        // Inspector の Play は Play Mode 外で押される。PlayerLoop は動かないので、エディターのプレビューが World を進める。
+        [Test]
+        public void InspectorPreview_AdvancesAnimationOutsidePlayMode()
+        {
+            System.Type preview = System.Type.GetType("MyMotion.Animation.Editor.MyMotionAnimationPreview, MyMotion.Animation.Editor");
+            Assert.That(preview, Is.Not.Null);
+            MethodInfo begin = preview.GetMethod("Begin", BindingFlags.Static | BindingFlags.Public);
+            MethodInfo end = preview.GetMethod("End", BindingFlags.Static | BindingFlags.Public);
+            MethodInfo update = preview.GetMethod("Update", BindingFlags.Static | BindingFlags.NonPublic);
+            FieldInfo lastTime = preview.GetField("s_lastTime", BindingFlags.Static | BindingFlags.NonPublic);
+
+            var a = new GameObject("a").transform;
+            a.SetParent(_host.transform);
+            MyMotionAnimation animation = CreateAnimation(false, Position(a, Vector3.one, 1f));
+            try
+            {
+                animation.Play();
+                begin.Invoke(null, null);
+                lastTime.SetValue(null, UnityEditor.EditorApplication.timeSinceStartup - 0.5d);
+                update.Invoke(null, null);
+
+                Assert.That(a.localPosition.x, Is.GreaterThan(0.4f).And.LessThan(0.7f));
+                Assert.That(animation.IsPlaying, Is.True);
+            }
+            finally
+            {
+                animation.Stop();
+                end.Invoke(null, null);
+            }
+        }
+
         [Test]
         public void Sequential_PlaysNextAfterCompletion_PauseAndResume()
         {

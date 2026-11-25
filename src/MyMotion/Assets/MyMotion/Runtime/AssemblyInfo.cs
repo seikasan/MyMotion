@@ -9,3 +9,4 @@ using System.Runtime.CompilerServices;
 [assembly: InternalsVisibleTo("MyMotion.Extensions.UniTask")]
 [assembly: InternalsVisibleTo("MyMotion.Animation")]
 [assembly: InternalsVisibleTo("MyMotion.Tests.Animation.Editor")]
+[assembly: InternalsVisibleTo("MyMotion.Animation.Editor")]
