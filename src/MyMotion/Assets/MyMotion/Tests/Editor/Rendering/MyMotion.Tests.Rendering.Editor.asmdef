@@ -1,0 +1,33 @@
+{
+  "name": "MyMotion.Tests.Rendering.Editor",
+  "rootNamespace": "MyMotion.Tests",
+  "references": [
+    "MyMotion.Runtime",
+    "MyMotion.Extensions.Rendering",
+    "Unity.RenderPipelines.Core.Runtime",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS",
+    "MYMOTION_SUPPORT_RENDER_PIPELINES"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.render-pipelines.core",
+      "expression": "",
+      "define": "MYMOTION_SUPPORT_RENDER_PIPELINES"
+    }
+  ],
+  "noEngineReferences": false
+}

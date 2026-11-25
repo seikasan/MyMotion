@@ -1,0 +1,17 @@
+{
+  "name": "MyMotion.Editor",
+  "rootNamespace": "MyMotion.Editor",
+  "references": [
+    "MyMotion.Runtime",
+    "Unity.Collections"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

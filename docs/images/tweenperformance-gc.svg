@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="908" height="276" viewBox="0 0 908 276" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="TweenPerformance: allocation per position tween">
+  <title>TweenPerformance: allocation per position tween</title>
+  <rect width="908" height="276" rx="8" fill="#ffffff"/>
+  <g transform="translate(24,20)">
+    <text x="0" y="22" font-size="18" font-weight="700" fill="#0b0b0b">TweenPerformance: allocation per position tween</text>
+    <text x="0" y="44" font-size="13" fill="#52514e">Bytes per tween (lower is better).</text>
+    <text x="0.0" y="78" font-size="14" font-weight="600" fill="#0b0b0b">transform.position tween creation</text>
+    <text x="84.0" y="104" font-size="12" text-anchor="end" font-weight="600" fill="#0b0b0b">MyMotion</text>
+    <text x="98.0" y="104" font-size="12" font-weight="600" fill="#0b0b0b">0 B</text>
+    <text x="84.0" y="128" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LitMotion</text>
+    <text x="98.0" y="128" font-size="12" font-weight="400" fill="#52514e">0 B</text>
+    <text x="84.0" y="152" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">PrimeTween</text>
+    <text x="98.0" y="152" font-size="12" font-weight="400" fill="#52514e">0 B</text>
+    <text x="84.0" y="176" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LeanTween</text>
+    <path d="M92.0,164.0 H346.8 A4,4 0 0 1 350.8,168.0 V176.0 A4,4 0 0 1 346.8,180.0 H92.0 Z" fill="#8a8984"/>
+    <text x="356.84964474705896" y="176" font-size="12" font-weight="400" fill="#52514e">293 B</text>
+    <text x="84.0" y="200" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">FastTweener</text>
+    <path d="M92.0,188.0 H586.4 A4,4 0 0 1 590.4,192.0 V200.0 A4,4 0 0 1 586.4,204.0 H92.0 Z" fill="#8a8984"/>
+    <text x="596.417870559819" y="200" font-size="12" font-weight="400" fill="#52514e">563 B</text>
+    <text x="84.0" y="224" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">DOTween</text>
+    <path d="M92.0,212.0 H778.0 A4,4 0 0 1 782.0,216.0 V224.0 A4,4 0 0 1 778.0,228.0 H92.0 Z" fill="#8a8984"/>
+    <text x="788.0000000000001" y="224" font-size="12" font-weight="400" fill="#52514e">780 B</text>
+    <line x1="92.0" y1="88" x2="92.0" y2="232" stroke="#d8d7d2" stroke-width="1"/>
+  </g>
+</svg>

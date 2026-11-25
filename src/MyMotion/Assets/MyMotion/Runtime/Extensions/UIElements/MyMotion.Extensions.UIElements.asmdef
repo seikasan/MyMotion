@@ -1,0 +1,25 @@
+{
+  "name": "MyMotion.Extensions.UIElements",
+  "rootNamespace": "MyMotion.Extensions",
+  "references": [
+    "MyMotion.Runtime",
+    "Unity.Collections"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "MYMOTION_SUPPORT_UIELEMENTS"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.modules.uielements",
+      "expression": "",
+      "define": "MYMOTION_SUPPORT_UIELEMENTS"
+    }
+  ],
+  "noEngineReferences": false
+}

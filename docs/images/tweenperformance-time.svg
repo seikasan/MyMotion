@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="908" height="464" viewBox="0 0 908 464" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="TweenPerformance (LitMotion's benchmark)">
+  <title>TweenPerformance (LitMotion's benchmark)</title>
+  <rect width="908" height="464" rx="8" fill="#ffffff"/>
+  <g transform="translate(24,20)">
+    <text x="0" y="22" font-size="18" font-weight="700" fill="#0b0b0b">TweenPerformance (LitMotion's benchmark)</text>
+    <text x="0" y="44" font-size="13" fill="#52514e">Milliseconds (lower is better). Release IL2CPP, Windows, median of 5 launches.</text>
+    <text x="0.0" y="78" font-size="14" font-weight="600" fill="#0b0b0b">Startup: 64,000 float tweens</text>
+    <text x="84.0" y="104" font-size="12" text-anchor="end" font-weight="600" fill="#0b0b0b">MyMotion</text>
+    <path d="M92.0,92.0 H121.7 A4,4 0 0 1 125.7,96.0 V104.0 A4,4 0 0 1 121.7,108.0 H92.0 Z" fill="#2a78d6"/>
+    <text x="131.66841835888786" y="104" font-size="12" font-weight="600" fill="#0b0b0b">15.07 ms</text>
+    <text x="84.0" y="128" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LitMotion</text>
+    <path d="M92.0,116.0 H129.8 A4,4 0 0 1 133.8,120.0 V128.0 A4,4 0 0 1 129.8,132.0 H92.0 Z" fill="#8a8984"/>
+    <text x="139.78607729071604" y="128" font-size="12" font-weight="400" fill="#52514e">18.70 ms</text>
+    <text x="84.0" y="152" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">PrimeTween</text>
+    <path d="M92.0,140.0 H130.7 A4,4 0 0 1 134.7,144.0 V152.0 A4,4 0 0 1 130.7,156.0 H92.0 Z" fill="#8a8984"/>
+    <text x="140.71748736691103" y="152" font-size="12" font-weight="400" fill="#52514e">19.12 ms</text>
+    <text x="84.0" y="176" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">FastTweener</text>
+    <path d="M92.0,164.0 H150.5 A4,4 0 0 1 154.5,168.0 V176.0 A4,4 0 0 1 150.5,180.0 H92.0 Z" fill="#8a8984"/>
+    <text x="160.5095045522372" y="176" font-size="12" font-weight="400" fill="#52514e">27.97 ms</text>
+    <text x="84.0" y="200" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LeanTween</text>
+    <path d="M92.0,188.0 H150.5 A4,4 0 0 1 154.5,192.0 V200.0 A4,4 0 0 1 150.5,204.0 H92.0 Z" fill="#8a8984"/>
+    <text x="160.5280523056739" y="200" font-size="12" font-weight="400" fill="#52514e">27.98 ms</text>
+    <text x="84.0" y="224" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">DOTween</text>
+    <path d="M92.0,212.0 H336.0 A4,4 0 0 1 340.0,216.0 V224.0 A4,4 0 0 1 336.0,228.0 H92.0 Z" fill="#8a8984"/>
+    <text x="346.0" y="224" font-size="12" font-weight="400" fill="#52514e">110.98 ms</text>
+    <line x1="92.0" y1="88" x2="92.0" y2="232" stroke="#d8d7d2" stroke-width="1"/>
+    <text x="442.0" y="78" font-size="14" font-weight="600" fill="#0b0b0b">Update: 64,000 float tweens</text>
+    <text x="526.0" y="104" font-size="12" text-anchor="end" font-weight="600" fill="#0b0b0b">MyMotion</text>
+    <path d="M534.0,92.0 H549.5 A4,4 0 0 1 553.5,96.0 V104.0 A4,4 0 0 1 549.5,108.0 H534.0 Z" fill="#2a78d6"/>
+    <text x="559.4792751736111" y="104" font-size="12" font-weight="600" fill="#0b0b0b">0.58 ms</text>
+    <text x="526.0" y="128" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LitMotion</text>
+    <path d="M534.0,116.0 H561.9 A4,4 0 0 1 565.9,120.0 V128.0 A4,4 0 0 1 561.9,132.0 H534.0 Z" fill="#8a8984"/>
+    <text x="571.9452039930555" y="128" font-size="12" font-weight="400" fill="#52514e">0.95 ms</text>
+    <text x="526.0" y="152" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">FastTweener</text>
+    <path d="M534.0,140.0 H578.9 A4,4 0 0 1 582.9,144.0 V152.0 A4,4 0 0 1 578.9,156.0 H534.0 Z" fill="#8a8984"/>
+    <text x="588.9386935763889" y="152" font-size="12" font-weight="400" fill="#52514e">1.45 ms</text>
+    <text x="526.0" y="176" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">DOTween</text>
+    <path d="M534.0,164.0 H648.3 A4,4 0 0 1 652.3,168.0 V176.0 A4,4 0 0 1 648.3,180.0 H534.0 Z" fill="#8a8984"/>
+    <text x="658.3489583333334" y="176" font-size="12" font-weight="400" fill="#52514e">3.52 ms</text>
+    <text x="526.0" y="200" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LeanTween</text>
+    <path d="M534.0,188.0 H650.9 A4,4 0 0 1 654.9,192.0 V200.0 A4,4 0 0 1 650.9,204.0 H534.0 Z" fill="#8a8984"/>
+    <text x="660.8885633680555" y="200" font-size="12" font-weight="400" fill="#52514e">3.59 ms</text>
+    <text x="526.0" y="224" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">PrimeTween</text>
+    <path d="M534.0,212.0 H778.0 A4,4 0 0 1 782.0,216.0 V224.0 A4,4 0 0 1 778.0,228.0 H534.0 Z" fill="#8a8984"/>
+    <text x="788.0" y="224" font-size="12" font-weight="400" fill="#52514e">7.37 ms</text>
+    <line x1="534.0" y1="88" x2="534.0" y2="232" stroke="#d8d7d2" stroke-width="1"/>
+    <text x="0.0" y="266" font-size="14" font-weight="600" fill="#0b0b0b">Startup: 50,000 transform.position</text>
+    <text x="84.0" y="292" font-size="12" text-anchor="end" font-weight="600" fill="#0b0b0b">MyMotion</text>
+    <path d="M92.0,280.0 H128.7 A4,4 0 0 1 132.7,284.0 V292.0 A4,4 0 0 1 128.7,296.0 H92.0 Z" fill="#2a78d6"/>
+    <text x="138.7282060476242" y="292" font-size="12" font-weight="600" fill="#0b0b0b">10.44 ms</text>
+    <text x="84.0" y="316" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LeanTween</text>
+    <path d="M92.0,304.0 H145.0 A4,4 0 0 1 149.0,308.0 V316.0 A4,4 0 0 1 145.0,320.0 H92.0 Z" fill="#8a8984"/>
+    <text x="155.03758573129323" y="316" font-size="12" font-weight="400" fill="#52514e">14.62 ms</text>
+    <text x="84.0" y="340" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LitMotion</text>
+    <path d="M92.0,328.0 H151.2 A4,4 0 0 1 155.2,332.0 V340.0 A4,4 0 0 1 151.2,344.0 H92.0 Z" fill="#8a8984"/>
+    <text x="161.19104572912292" y="340" font-size="12" font-weight="400" fill="#52514e">16.20 ms</text>
+    <text x="84.0" y="364" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">PrimeTween</text>
+    <path d="M92.0,352.0 H162.0 A4,4 0 0 1 166.0,356.0 V364.0 A4,4 0 0 1 162.0,368.0 H92.0 Z" fill="#8a8984"/>
+    <text x="172.03809371033873" y="364" font-size="12" font-weight="400" fill="#52514e">18.98 ms</text>
+    <text x="84.0" y="388" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">FastTweener</text>
+    <path d="M92.0,376.0 H214.1 A4,4 0 0 1 218.1,380.0 V388.0 A4,4 0 0 1 214.1,392.0 H92.0 Z" fill="#8a8984"/>
+    <text x="224.09698153504036" y="388" font-size="12" font-weight="400" fill="#52514e">32.33 ms</text>
+    <text x="84.0" y="412" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">DOTween</text>
+    <path d="M92.0,400.0 H336.0 A4,4 0 0 1 340.0,404.0 V412.0 A4,4 0 0 1 336.0,416.0 H92.0 Z" fill="#8a8984"/>
+    <text x="346.0" y="412" font-size="12" font-weight="400" fill="#52514e">63.59 ms</text>
+    <line x1="92.0" y1="276" x2="92.0" y2="420" stroke="#d8d7d2" stroke-width="1"/>
+    <text x="442.0" y="266" font-size="14" font-weight="600" fill="#0b0b0b">Update: 50,000 transform.position</text>
+    <text x="526.0" y="292" font-size="12" text-anchor="end" font-weight="600" fill="#0b0b0b">MyMotion</text>
+    <path d="M534.0,280.0 H666.7 A4,4 0 0 1 670.7,284.0 V292.0 A4,4 0 0 1 666.7,296.0 H534.0 Z" fill="#2a78d6"/>
+    <text x="676.6995536873923" y="292" font-size="12" font-weight="600" fill="#0b0b0b">2.33 ms</text>
+    <text x="526.0" y="316" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LitMotion</text>
+    <path d="M534.0,304.0 H681.6 A4,4 0 0 1 685.6,308.0 V316.0 A4,4 0 0 1 681.6,320.0 H534.0 Z" fill="#8a8984"/>
+    <text x="691.5747514581907" y="316" font-size="12" font-weight="400" fill="#52514e">2.59 ms</text>
+    <text x="526.0" y="340" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">PrimeTween</text>
+    <path d="M534.0,328.0 H698.5 A4,4 0 0 1 702.5,332.0 V340.0 A4,4 0 0 1 698.5,344.0 H534.0 Z" fill="#8a8984"/>
+    <text x="708.5231067135807" y="340" font-size="12" font-weight="400" fill="#52514e">2.88 ms</text>
+    <text x="526.0" y="364" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LeanTween</text>
+    <path d="M534.0,352.0 H753.1 A4,4 0 0 1 757.1,356.0 V364.0 A4,4 0 0 1 753.1,368.0 H534.0 Z" fill="#8a8984"/>
+    <text x="763.0986846766004" y="364" font-size="12" font-weight="400" fill="#52514e">3.81 ms</text>
+    <text x="526.0" y="388" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">FastTweener</text>
+    <path d="M534.0,376.0 H762.2 A4,4 0 0 1 766.2,380.0 V388.0 A4,4 0 0 1 762.2,392.0 H534.0 Z" fill="#8a8984"/>
+    <text x="772.1877818971828" y="388" font-size="12" font-weight="400" fill="#52514e">3.96 ms</text>
+    <text x="526.0" y="412" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">DOTween</text>
+    <path d="M534.0,400.0 H778.0 A4,4 0 0 1 782.0,404.0 V412.0 A4,4 0 0 1 778.0,416.0 H534.0 Z" fill="#8a8984"/>
+    <text x="788.0" y="412" font-size="12" font-weight="400" fill="#52514e">4.23 ms</text>
+    <line x1="534.0" y1="276" x2="534.0" y2="420" stroke="#d8d7d2" stroke-width="1"/>
+  </g>
+</svg>

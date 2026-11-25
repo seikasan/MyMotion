@@ -1,0 +1,27 @@
+{
+  "name": "MyMotion.Tests.R3.Editor",
+  "rootNamespace": "MyMotion.Tests",
+  "references": [
+    "MyMotion.Runtime",
+    "MyMotion.Extensions.R3",
+    "R3.Unity",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll", "R3.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS", "MYMOTION_SUPPORT_R3"],
+  "versionDefines": [
+    {
+      "name": "com.cysharp.r3",
+      "expression": "",
+      "define": "MYMOTION_SUPPORT_R3"
+    }
+  ],
+  "noEngineReferences": false
+}
+

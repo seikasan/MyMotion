@@ -1,0 +1,31 @@
+{
+  "name": "MyMotion.Animation",
+  "rootNamespace": "",
+  "references": [
+    "MyMotion.Runtime",
+    "MyMotion.Extensions.uGUI",
+    "MyMotion.Extensions.TextMeshPro",
+    "MyMotion.Extensions.Rendering",
+    "Unity.Collections",
+    "Unity.TextMeshPro",
+    "Unity.RenderPipelines.Core.Runtime",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    { "name": "com.unity.ugui", "expression": "", "define": "MYMOTION_ANIMATION_UGUI" },
+    { "name": "com.unity.textmeshpro", "expression": "", "define": "MYMOTION_ANIMATION_TMP" },
+    { "name": "com.unity.ugui", "expression": "2.0.0", "define": "MYMOTION_ANIMATION_TMP" },
+    { "name": "com.unity.render-pipelines.core", "expression": "", "define": "MYMOTION_ANIMATION_RENDER_PIPELINES" },
+    { "name": "com.unity.modules.audio", "expression": "", "define": "MYMOTION_ANIMATION_UNITY_AUDIO" },
+    { "name": "com.unity.modules.physics", "expression": "", "define": "MYMOTION_ANIMATION_PHYSICS" },
+    { "name": "com.unity.modules.physics2d", "expression": "", "define": "MYMOTION_ANIMATION_PHYSICS_2D" }
+  ],
+  "noEngineReferences": false
+}

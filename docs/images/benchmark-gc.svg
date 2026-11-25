@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="908" height="276" viewBox="0 0 908 276" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Managed allocation on create">
+  <title>Managed allocation on create</title>
+  <rect width="908" height="276" rx="8" fill="#ffffff"/>
+  <g transform="translate(24,20)">
+    <text x="0" y="22" font-size="18" font-weight="700" fill="#0b0b0b">Managed allocation on create</text>
+    <text x="0" y="44" font-size="13" fill="#52514e">Bytes allocated per tween (lower is better). Largest value across the five workloads.</text>
+    <text x="0.0" y="78" font-size="14" font-weight="600" fill="#0b0b0b">All workloads</text>
+    <text x="84.0" y="104" font-size="12" text-anchor="end" font-weight="600" fill="#0b0b0b">MyMotion</text>
+    <text x="98.0" y="104" font-size="12" font-weight="600" fill="#0b0b0b">0 B</text>
+    <text x="84.0" y="128" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LitMotion</text>
+    <text x="98.0" y="128" font-size="12" font-weight="400" fill="#52514e">0 B</text>
+    <text x="84.0" y="152" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">PrimeTween</text>
+    <text x="98.0" y="152" font-size="12" font-weight="400" fill="#52514e">0 B</text>
+    <text x="84.0" y="176" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">LeanTween</text>
+    <text x="98.0" y="176" font-size="12" font-weight="400" fill="#52514e">0 B</text>
+    <text x="84.0" y="200" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">FastTweener</text>
+    <path d="M92.0,188.0 H245.8 A4,4 0 0 1 249.8,192.0 V200.0 A4,4 0 0 1 245.8,204.0 H92.0 Z" fill="#8a8984"/>
+    <text x="255.75088722397476" y="200" font-size="12" font-weight="400" fill="#52514e">178 B</text>
+    <text x="84.0" y="224" font-size="12" text-anchor="end" font-weight="400" fill="#52514e">DOTween</text>
+    <path d="M92.0,212.0 H778.0 A4,4 0 0 1 782.0,216.0 V224.0 A4,4 0 0 1 778.0,228.0 H92.0 Z" fill="#8a8984"/>
+    <text x="788.0" y="224" font-size="12" font-weight="400" fill="#52514e">779 B</text>
+    <line x1="92.0" y1="88" x2="92.0" y2="232" stroke="#d8d7d2" stroke-width="1"/>
+  </g>
+</svg>

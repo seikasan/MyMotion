@@ -1,0 +1,9 @@
+library,stage,ns_per_motion_median,ns_per_motion_p95,count,repetitions
+mymotion,builder,45.39,67.36,4096,101
+mymotion,bind,155.96,187.57,4096,101
+mymotion,bind_cancel_cleanup,209.84,235.28,4096,101
+mymotion,bind_immediate,195.02,235.33,4096,101
+litmotion,builder,175.15,225.81,4096,101
+litmotion,bind,440.04,501.98,4096,101
+litmotion,bind_cancel_cleanup,521.75,694.75,4096,101
+litmotion,bind_immediate,476.29,523.02,4096,101

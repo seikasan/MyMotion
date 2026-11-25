@@ -1,0 +1,26 @@
+{
+  "name": "MyMotion.Extensions.UniRx",
+  "rootNamespace": "MyMotion.Extensions",
+  "references": [
+    "MyMotion.Runtime",
+    "UniRx"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "MYMOTION_SUPPORT_UNIRX"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.neuecc.unirx",
+      "expression": "",
+      "define": "MYMOTION_SUPPORT_UNIRX"
+    }
+  ],
+  "noEngineReferences": false
+}
+

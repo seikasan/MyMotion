@@ -1,0 +1,26 @@
+{
+  "name": "MyMotion.Extensions.R3",
+  "rootNamespace": "MyMotion.Extensions",
+  "references": [
+    "MyMotion.Runtime",
+    "R3.Unity"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "MYMOTION_SUPPORT_R3"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.cysharp.r3",
+      "expression": "",
+      "define": "MYMOTION_SUPPORT_R3"
+    }
+  ],
+  "noEngineReferences": false
+}
+

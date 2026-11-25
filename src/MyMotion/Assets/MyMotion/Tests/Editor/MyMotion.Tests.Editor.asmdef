@@ -1,0 +1,33 @@
+{
+  "name": "MyMotion.Tests.Editor",
+  "rootNamespace": "MyMotion.Tests",
+  "references": [
+    "MyMotion.Runtime",
+    "MyMotion.Editor",
+    "LitMotion",
+    "Unity.Collections",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.annulusgames.lit-motion",
+      "expression": "",
+      "define": "MYMOTION_TEST_LITMOTION"
+    }
+  ],
+  "noEngineReferences": false
+}

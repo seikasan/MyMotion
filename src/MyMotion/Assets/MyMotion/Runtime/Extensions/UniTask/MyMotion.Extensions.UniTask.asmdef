@@ -1,0 +1,26 @@
+{
+  "name": "MyMotion.Extensions.UniTask",
+  "rootNamespace": "MyMotion.Extensions",
+  "references": [
+    "MyMotion.Runtime",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "MYMOTION_SUPPORT_UNITASK"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.cysharp.unitask",
+      "expression": "",
+      "define": "MYMOTION_SUPPORT_UNITASK"
+    }
+  ],
+  "noEngineReferences": false
+}
+

@@ -1,0 +1,26 @@
+{
+  "name": "MyMotion.Extensions.TextMeshPro",
+  "rootNamespace": "MyMotion.Extensions",
+  "references": [
+    "MyMotion.Runtime",
+    "Unity.Collections",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "MYMOTION_SUPPORT_TMP"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.ugui",
+      "expression": "",
+      "define": "MYMOTION_SUPPORT_TMP"
+    }
+  ],
+  "noEngineReferences": false
+}

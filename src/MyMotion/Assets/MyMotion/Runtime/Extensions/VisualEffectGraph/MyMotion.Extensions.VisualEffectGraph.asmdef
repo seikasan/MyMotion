@@ -1,0 +1,25 @@
+{
+  "name": "MyMotion.Extensions.VisualEffectGraph",
+  "rootNamespace": "MyMotion.Extensions",
+  "references": [
+    "MyMotion.Runtime",
+    "Unity.VisualEffectGraph.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "MYMOTION_SUPPORT_VFX_GRAPH"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.visualeffectgraph",
+      "expression": "",
+      "define": "MYMOTION_SUPPORT_VFX_GRAPH"
+    }
+  ],
+  "noEngineReferences": false
+}
