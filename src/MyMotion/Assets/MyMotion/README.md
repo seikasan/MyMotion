@@ -14,7 +14,7 @@ MMotion.Create(Vector3.zero, Vector3.one, 0.5f)
 ```
 
 - Documentation / ドキュメント: https://github.com/seikasan/MyMotion/tree/main#readme
-- Requires Unity 6000.6 or later / Unity 6000.6 以降が必要です。
+- Requires Unity 6000.5 or later / Unity 6000.5 以降が必要です。
 
 ## Installation / インストール
 

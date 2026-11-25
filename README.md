@@ -1,7 +1,7 @@
 # MyMotion
 
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-![Unity](https://img.shields.io/badge/Unity-6000.6%2B-black.svg)
+![Unity](https://img.shields.io/badge/Unity-6000.5%2B-black.svg)
 
 [日本語版 README はこちら](README_JA.md)
 
@@ -48,8 +48,8 @@ All numbers are measured on Release IL2CPP players; see [Performance](#performan
 
 ## Requirements
 
-- Unity 6000.6 or later
-- Burst 2.0.0, Collections 6.6.0, Mathematics 1.4.0 (installed automatically as dependencies)
+- Unity 6000.5 or later
+- Burst 1.8.26, Collections 2.6.3, Mathematics 1.3.3 (installed automatically as dependencies)
 
 ## Installation
 
@@ -200,7 +200,7 @@ Differences to be aware of:
 
 - Builders are immutable values and can be bound more than once. `Dispose()` exists only for `using` compatibility and does nothing.
 - `MotionHandle` holds no managed references. Handles of a disposed `ManualMotionDispatcher` simply become invalid.
-- MyMotion requires Unity 6000.6 or later.
+- MyMotion requires Unity 6000.5 or later.
 
 See [Migrating from LitMotion](docs/migration-from-litmotion.md) for details.
 

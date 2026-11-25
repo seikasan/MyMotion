@@ -1,8 +1,9 @@
 {
   "name": "com.seikasan.mymotion",
+  "version": "1.0.0",
   "displayName": "MyMotion",
   "description": "A high-performance, zero-allocation tween library for Unity with a LitMotion-compatible API. Built on Burst and the C# Job System.",
-  "unity": "6000.6",
+  "unity": "6000.5",
   "documentationUrl": "https://github.com/seikasan/MyMotion/tree/main/docs",
   "changelogUrl": "https://github.com/seikasan/MyMotion/blob/main/src/MyMotion/Assets/MyMotion/CHANGELOG.md",
   "licensesUrl": "https://github.com/seikasan/MyMotion/blob/main/src/MyMotion/Assets/MyMotion/LICENSE.md",
@@ -20,9 +21,9 @@
     "litmotion"
   ],
   "dependencies": {
-    "com.unity.burst": "2.0.0",
-    "com.unity.collections": "6.6.0",
-    "com.unity.mathematics": "1.4.0",
+    "com.unity.burst": "1.8.26",
+    "com.unity.collections": "2.6.3",
+    "com.unity.mathematics": "1.3.3",
     "com.unity.modules.audio": "1.0.0",
     "com.unity.modules.physics": "1.0.0",
     "com.unity.modules.physics2d": "1.0.0"

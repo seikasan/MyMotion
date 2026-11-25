@@ -48,7 +48,7 @@ MMotion.Punch.Create(Vector3.zero, Vector3.one, 0.5f)
 
 ### 動作環境
 
-MyMotion は Unity 6000.6 以降、Burst 2.0.0、Collections 6.6.0、Mathematics 1.4.0 が必要です。
+MyMotion は Unity 6000.5 以降、Burst 1.8.26、Collections 2.6.3、Mathematics 1.3.3 が必要です。
 
 ## 性能の違い
 

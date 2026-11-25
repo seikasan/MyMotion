@@ -1,7 +1,7 @@
 # MyMotion
 
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-![Unity](https://img.shields.io/badge/Unity-6000.6%2B-black.svg)
+![Unity](https://img.shields.io/badge/Unity-6000.5%2B-black.svg)
 
 [English README](README.md)
 
@@ -61,8 +61,8 @@ MMotion.Create(Vector3.zero, new Vector3(5f, 0f, 0f), 1f)
 
 ## 動作環境
 
-- Unity 6000.6 以降
-- Burst 2.0.0、Collections 6.6.0、Mathematics 1.4.0（依存関係として自動で入ります）
+- Unity 6000.5 以降
+- Burst 1.8.26、Collections 2.6.3、Mathematics 1.3.3（依存関係として自動で入ります）
 
 ## インストール
 
@@ -213,7 +213,7 @@ MyMotion は LitMotion のメソッド名と挙動を引き継いでいます。
 
 - **builder**: 不変の値なので、同じ builder を何度でも Bind できます。`Dispose()` は `using` 構文との互換のためだけにあり、何もしません。
 - **`MotionHandle`**: managed の参照を持ちません。Dispose された `ManualMotionDispatcher` の handle は、単に無効になります。
-- **動作環境**: Unity 6000.6 以降が必要です。
+- **動作環境**: Unity 6000.5 以降が必要です。
 
 詳しくは [LitMotion からの移行](docs/migration-from-litmotion.md) を参照してください。
 

@@ -5,7 +5,8 @@
 | 項目 | 値 |
 | --- | --- |
 | Package ID | com.seikasan.mymotion |
-| Version | 0.1.0 |
+| Version | 1.0.0 |
+| Unity 最低バージョン | 6000.5 |
 | Unity 検証環境 | 6000.6.8f1 |
 | License | MIT |
 
@@ -15,9 +16,9 @@ package.json は次の依存関係を宣言しています。Unity Package Manag
 
 | Package ID | Version |
 | --- | --- |
-| com.unity.burst | 2.0.0 |
-| com.unity.collections | 6.6.0 |
-| com.unity.mathematics | 1.4.0 |
+| com.unity.burst | 1.8.26 |
+| com.unity.collections | 2.6.3 |
+| com.unity.mathematics | 1.3.3 |
 | com.unity.modules.audio | 1.0.0 |
 | com.unity.modules.physics | 1.0.0 |
 | com.unity.modules.physics2d | 1.0.0 |
